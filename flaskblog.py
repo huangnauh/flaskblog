@@ -1,7 +1,7 @@
 #coding=utf-8
 import os
 import sqlite3
-from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash,Config,send_from_directory
+from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash,Config
 
 from werkzeug import secure_filename
 
