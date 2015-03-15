@@ -3,8 +3,6 @@ import os
 import sqlite3
 from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash,Config
 
-from werkzeug import secure_filename
-
 app = Flask(__name__)
 
 app.config.update({'database':os.path.join(app.root_path,'flaskblog.db'),
