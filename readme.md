@@ -7,6 +7,8 @@
 ###flaskblog1.py
 使用Stormpath账户登入，保存博客
 
+[将用户管理和认证外包给Stormpath](http://www.infoq.com/cn/news/2013/07/Stormpath)
+
 pip install flask-stormpath
 
 1. 创建Stormpath账户:https://api.stormpath.com/register
