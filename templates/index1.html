@@ -1,0 +1,1 @@
+{% extends "layout1.html" %}{% block content %}    <h2> List of Pages </h2>    <ul>        {% for page in pages %}        <li>            <a href="{{ url_for('page',path=page['path']) }}">{{ page['title']}}</a>        </li>        {% endfor %}{% endblock content %}
